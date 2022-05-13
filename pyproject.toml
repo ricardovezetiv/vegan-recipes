@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vegan-recipes"
+version = "0.1.0"
+description = ""
+authors = ["Ricardo Branco <ricardo.vezetiv@mail.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.0.4"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+black = "^22.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
